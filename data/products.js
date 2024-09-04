@@ -658,5 +658,78 @@ const products = [
       "apparel",
       "mens"
     ]
-  }
+  },
+  {
+    id: "ad35124e8-3213-5ndas21-bwa13xq1312",
+    image: "images/products/gpu-cup.jpg",
+    name: "Don't Tread On My GPU Cup by @levelsio",
+    rating: {
+      stars: 4.5,
+      count: 27
+    },
+    priceCents: 3210,
+    keywords: [
+      "cup",
+      "kitchen"
+    ]
+  },
+  {
+    id: "as9000f8-1000-3whah21-hds48xq8471",
+    image: "images/products/hhkb.bmp",
+    name: "HHKB Pro Hybrid Type-S",
+    rating: {
+      stars: 5,
+      count: 321
+    },
+    priceCents: 29900,
+    keywords: [
+      "pc",
+      "keyboard",
+      "tech"
+    ]
+  },
+  {
+    id: "ry74713e8-8592-7pojn85-dgl65mk7593",
+    image: "images/products/cat-sticker-pack.webp",
+    name: "Cat Sticker Pack (x10)",
+    rating: {
+      stars: 4.5,
+      count: 141
+    },
+    priceCents: 1010,
+    keywords: [
+      "sticker",
+      "laptop sticker",
+      "cat"
+    ]
+  },
+  {
+    id: "jk75830l8-7301-9unda13-mdn13ss1849",
+    image: "images/products/expert-c-programming.jpg",
+    name: "Expert C Programming - Deep C Secrets by Peter Van Der Linden",
+    rating: {
+      stars: 5,
+      count: 100
+    },
+    priceCents: 7500,
+    keywords: [
+      "programming",
+      "book",
+      "c language"
+    ]
+  },
+  {
+    id: "xq3213e8-4382-0nxrs37-bwa13da9974",
+    image: "images/products/celsius-pack.jpg",
+    name: "Celsius Drink Pack (x58)",
+    rating: {
+      stars: 4.0,
+      count: 1221
+    },
+    priceCents: 10000,
+    keywords: [
+      "drink",
+      "energy drink"
+    ]
+  },
 ];
