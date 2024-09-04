@@ -107,11 +107,11 @@ document.querySelectorAll('.js-add-to-cart')
             const addedMessage = document.querySelector(`.js-added-to-cart-${productId}`);
             addedMessage.classList.add('show-added-message');
 
-            // // check previous timeout is aviable and if there is we delete 
-            // const previousTimeoutId = addedMessageTimeouts[productId];
-            // if(previousTimeoutId) {
-            //   clearTimeout(previousTimeoutId);
-            // }
+            // check previous timeout is aviable and if there is we delete 
+            const previousTimeoutId = addedMessageTimeouts[productId];
+            if(previousTimeoutId) {
+              clearTimeout(previousTimeoutId);
+            }
 
             const timeoutId = addedMessageTimeouts[productId] = setTimeout(() => {
               addedMessage.classList.remove('show-added-message');
